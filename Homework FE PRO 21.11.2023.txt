@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+ 
+  <nav class="nav"> 
+    <ul class="nav-ul">
+           <li class="home">Home</li>
+           <li class="link1">Link 1</li>
+           <li class="link2">Link 2</li>
+           <li class="link3">Link 3</li>
+           <li class="link4">Link 4</li>
+          
+    </ul>
+  </nav>
+    
+   
+<header >
+    
+    <h1>START PAGE</h1>
+    <p>Template by w3.css</p>
+    <button class="btn">Get Started</button>
+    
+</header>
+ 
+
+<main>
+  <div class="block1">
+    <div class="block-block1">
+    <h2>Lorem Ipsum</h2>
+    
+    <h5>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+   </h5>
+   
+   <span>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </span>
+  </div>
+
+<div>
+<img src="./image/anchor.svg" alt="anchor">
+
+</div>
+</div>
+
+<!---->
+ <div class="block2">
+<div class="block-block2">
+<h2>Lorem Ipsum</h2>
+
+<h5>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</h5>
+
+<span>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</span>
+</div>
+<div>
+<img  scr="./image/mug-saucer.svg" alt="mug">
+</div>
+
+</div>
+
+
+</main>
+
+<div class="lv">
+  <h3 class="live">Quote of the day: live life</h3>
+</div>
+
+<!---->
+<footer>
+<div>
+  <ul class="social-icons">
+    <li class="icons"><a href="http://www.facebook.com" target="_blank"><img src='./image/facebook (1).svg' /></a></li>
+    <li class="icons"><a href="https://www.instagram.com"><img src='./image/instagram1.svg' /></a></li>
+    <li class="icons"><a href="http://www.snapchat.com"><img src='./image/snapchat.svg' /></a></li>
+    <li class="icons"><a href="http://www.pinterest.com"><img src='./image/pinterest.svg' /></a></li>
+    <li class="icons"><a href="https://www.twitter.com"><img src='./image/twitter.svg' /></a></li>
+    <li class="icons"><a href="http://www.linkedin-in.com"><img src='./image/linkedin-in.svg' /></a></li>
+
+</ul>
+<span>Powered by w3.css</span>
+
+</div>
+</footer>
+</body>
+</html>
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-ul {
+    list-style-type: none; 
+      background-color: #f44336;
+      display: block;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Горизонтальное смещение, вертикальное смещение, размытие, цвет тени */
+ 
+    
+      position: 51px 888px; 
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+        display: flex;
+        list-style-type: none; /* Убираем маркеры списка */
+        padding: 0; /* Убираем внутренний отступ у списка */
+      
+      }
+li {
+    display: block;
+    color: #fff;
+    background-color:  #f44336;
+    padding: 20px 40px;
+    
+  }
+
+/* Изменение цвета при наведении */
+.link1:hover, .link2:hover, .link3:hover, .link4:hover {
+    color: black;
+    background-color: white;
+}
+.home:hover {
+  background-color: rgb(167, 168, 171);
+}
+.home {
+  color: black;
+    background-color: #fff;
+    padding: 20px 40px;
+
+}
+
+      
+    
+header {
+  padding: 128px 16px;
+   background-color: #f44336;
+  text-align: center;
+  font-weight: 400;
+  /* Для центрирования по вертикали на всю высоту окна */
+  line-height: 1.5;
+      }
+h1 {
+  color: white;
+  margin: 16px;
+  display: block;
+  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+
+}
+p {
+  color: white;
+  font-size: 24px;
+  display: block;
+  font-family: Verdana,sans-serif;
+}
+button {
+  color: white;
+  padding: 12px 24px;
+  margin-top: 16px;
+  font-size: 18px;
+    border: none;
+   background-color: #060606;
+}
+.btn:hover {
+  color: #060606;
+  background-color: rgb(167, 168, 171);
+}
+
+main {
+  padding: 128px 16px;
+}
+  /*
+ */
+
+
+.block1 {
+
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin: auto;
+}
+
+.block-block1 {
+ float: left;
+  width: 66.66666%;
+
+
+}
+.block2 {
+  background-color: #f1f1f1;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+  
+.block-block2 {
+
+  float: right;
+  width: 66.66666%;
+  
+}
+   h2 {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+}
+    h5 {
+      display: block;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      font-weight: 400; 
+      margin: 10px 0;
+      font-family: "Lato", sans-serif;
+      font-size: 18px;
+      
+     
+  }
+  span {
+   
+    display: block;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+}
+
+
+  
+    
+     
+  img {
+    font-size: 200px;
+    text-align: center;
+
+width: 200px;
+height: 150px;
+width: 33.33333%;
+
+}
+
+  
+  .lv {
+    /* 
+    
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding: 64px 16px;*/
+   
+    max-width: 68;
+ 
+    
+    background-color: gray;
+    color: white;
+    
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    display: block;
+    
+     }
+     /**/
+     .live {
+      max-width: 100%;
+     height: 200px;
+     text-align: center;
+margin: 16px;
+font-weight: 400;
+}
+
+   
+     
+     
+     
+     .social-icons {
+      padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 24px;
+      text-align: center;
+      border: none;
+      }  
+    .social-icons li {
+      display:inline-block;
+      list-style-type:none;
+    
+      }
+      .icons {
+       font-size: 24px;
+       margin: -32px;
+       
+        background-color: white;
+        
+      }
+  
+      
+    .social-icons li a {
+      border-bottom: none;
+      }
+    .social-icons li img {
+       color: rgb(61, 58, 58);
+      width:70px;
+      height:25px;
+      
+    }
+
+    footer {
+      padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    display: block;
+ 
+}
+  
